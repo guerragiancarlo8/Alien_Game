@@ -21,6 +21,14 @@ class Player
 		@y = @real_y + @sprite[0].height
 	end
 
+	def is_jumping?
+		return @jump > 0
+	end
+
+	def reset_jump
+		@jump = 0
+	end
+
 	def jump
 		@jump = 15 if @jump == 0
 	end
