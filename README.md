@@ -1,5 +1,9 @@
 # Alien_Game 
-Author: Giancarlo M. Guerra Salva
+<<<<<<< HEAD
+Author: Giancarlo M. Guerra Salvá
+=======
+Author: Giancarlo M. Guerra
+>>>>>>> 6ce54bc518b9a8737bd7b1ad8e157d06113f419a
 A simple platformer game using the Gosu library. 
 
 I am following this tutorial: https://corruptgd.wordpress.com/tutorials-creating-a-platformer-in-ruby-gosu/
