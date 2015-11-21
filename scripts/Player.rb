@@ -102,10 +102,10 @@ class Player
 		
 	end
 
-	def draw(z=5)
+	def draw(camera_x, camera_y,z=5)
 
 		frame = milliseconds/100 % @sprite.size
-		@sprite[frame].draw(@real_x, @real_y, z)
+		@sprite[frame].draw(@real_x - camera_x, @real_y - camera_y, z)
 	end
 
 end
